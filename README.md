@@ -4,7 +4,7 @@
 This project builds a machine learning model to classify news articles into categories based on their textual content. The goal is to explore how natural language processing (NLP) techniques can be used to automatically understand and organize large collections of text data.
 
 ## Research Question
-Can machine learning models effectively classify news articles into categories based on textual content?
+Can machine learning models effectively classify news articles into broader categories based on textual content?
 
 ## Dataset
 The dataset used is the AG News dataset, accessed via the Hugging Face datasets library.
@@ -25,9 +25,9 @@ The original four classes are grouped into two categories by combining labels 0â
 - Logistic Regression classifier
 
 ## Results
-The model achieves high accuracy (0.935) in classifying news articles into grouped categories.
+The model achieves high accuracy (0.935) in classifying news articles into two grouped categories.
 
-Some errors occur due to ambiguity and overlap between certain topics, but overall performance is strong. The high accuracy suggests that even simple models like Logistic Regression combined with TF-IDF can perform well on structured text classification tasks.
+Some errors occur due to ambiguity and overlap between categories, but overall performance is strong. The high accuracy suggests that even simple models like Logistic Regression combined with TF-IDF can perform well on structured text classification tasks.
 
 ## Interpretation
 The model demonstrates that machine learning can effectively classify news articles based on their content. High accuracy indicates that different news categories contain distinct linguistic patterns that can be captured using simple NLP techniques.
